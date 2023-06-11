@@ -1,0 +1,2 @@
+# Comechi
+将ASOBISTAGE/ニコニコ生放送/ニコニコチャンネルプラス/Openrec/YouTube/Zaiko的直播评论转换成能以弹幕形式在播放器中显示的ass字幕格式
