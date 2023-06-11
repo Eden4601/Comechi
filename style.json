@@ -1,0 +1,108 @@
+{
+  "video_width": 1920,
+  "video_height": 1080,
+  "displayed_time": 5,
+  "row_cnt_base": 11,
+  "font_name": "MS PGothic",
+  "spacing": 16,
+  "outline": 2,
+  "color": { "r": 255, "g": 255, "b": 255, "a": 0.5 },
+  "outline_color": { "r": 0, "g": 0, "b": 0, "a": 0.3 },
+  "official": {
+    "font_name": "MS PGothic",
+    "font_size": 50,
+    "color": { "r": 255, "g": 255, "b": 255, "a": 1 },
+    "outline": 0,
+    "outline_color": { "r": 0, "g": 0, "b": 0, "a": 1 },
+    "background": {
+      "marginV": 20,
+      "marginH": 20,
+      "paddingV": 10,
+      "paddingH": 10,
+      "border_radius": 10,
+      "color": "#202123",
+      "opacity": 0.5,
+      "outline_color": "#000000",
+      "outline_opacity": 0,
+      "other": ""
+    }
+  },
+  "vote": {
+    "container": {
+      "marginH": 20,
+      "marginV": 20,
+      "padding_top": 10,
+      "padding_bottom": 10,
+      "padding_right": 10,
+      "padding_left": 10
+    },
+    "countdown": {
+      "height": 20,
+      "border_radius": 8,
+      "color": "#2edf3b",
+      "opacity": 0.2,
+      "outline_color": "#df2e6d",
+      "outline_opacity": 0.2,
+      "other": "",
+      "bg": {
+        "color": "#202123",
+        "opacity": 0.2,
+        "outline_color": "#df2e6d",
+        "outline_opacity": 0.2,
+        "other": ""
+      },
+      "marginV": 20
+    },
+    "question": {
+      "font_name": "MS Gothic",
+      "font_size": 40,
+      "bg": {
+        "color": "#639de5",
+        "opacity": 0.2,
+        "outline_color": "#ffffff",
+        "outline_opacity": 0,
+        "border_radius": 10,
+        "margin_top": 10,
+        "margin_bottom": 20,
+        "paddingH": 20,
+        "paddingV": 20,
+        "other": ""
+      }
+    },
+    "choice": {
+      "font_name": "MS Gothic",
+      "font_size": 30,
+      "bg": {
+        "color": "#1c1d1e",
+        "opacity": 0.4,
+        "outline_color": "#000000",
+        "outline_opacity": 0,
+        "border_radius": 10,
+        "marginV": 10,
+        "paddingV": 20,
+        "other": ""
+      }
+    },
+    "result": {
+      "margin_left": 20,
+      "bg": {
+        "color": "#ff8b3d",
+        "opacity": 0,
+        "outline_color": "#000000",
+        "outline_opacity": 0,
+        "animation": {
+          "time_start": 0,
+          "time_end": 250,
+          "accel": 2
+        },
+        "other": ""
+      }
+    }
+  },
+  "comment_art": {
+    "font_size": 10,
+    "outline": 1,
+    "color": { "r": 255, "g": 255, "b": 255, "a": 0.8 },
+    "outline_color": { "r": 0, "g": 0, "b": 0, "a": 0.6 }
+  }
+}
