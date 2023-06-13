@@ -1523,11 +1523,7 @@ row_cnt_base = style['row_cnt_base']
 WIDTH = style['video_width']
 HEIGHT = style['video_height']
 
-description = """将部分直播平台的实时评论转换成能以弹幕形式在播放器中显示的ass字幕格式
-支持的平台:
-    ニコニコチャンネルプラス/Openrec            直接输入直播页面链接
-    ASOBISTAGE/ニコニコ生放送/YouTube/Zaiko    需要提前下载评论文件到本地"""
-parser = argparse.ArgumentParser(description=description, formatter_class=argparse.RawTextHelpFormatter)
+parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
 
 parser.add_argument('-p', '--platform', type=str, required=True,
                     help='''指定直播平台
